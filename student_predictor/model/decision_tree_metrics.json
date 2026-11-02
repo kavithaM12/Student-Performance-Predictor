@@ -1,0 +1,61 @@
+{
+  "accuracy": 0.9116666666666666,
+  "report": {
+    "Needs Support": {
+      "precision": 0.91,
+      "recall": 0.9130434782608695,
+      "f1-score": 0.9115191986644408,
+      "support": 299.0
+    },
+    "On Track": {
+      "precision": 0.9133333333333333,
+      "recall": 0.9102990033222591,
+      "f1-score": 0.9118136439267887,
+      "support": 301.0
+    },
+    "accuracy": 0.9116666666666666,
+    "macro avg": {
+      "precision": 0.9116666666666666,
+      "recall": 0.9116712407915644,
+      "f1-score": 0.9116664212956147,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.9116722222222222,
+      "recall": 0.9116666666666666,
+      "f1-score": 0.9116669120377184,
+      "support": 600.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      273,
+      26
+    ],
+    [
+      27,
+      274
+    ]
+  ],
+  "classes": [
+    "Needs Support",
+    "On Track"
+  ],
+  "n_train": 2400,
+  "n_test": 600,
+  "feature_importance": {
+    "week": 0.045684375592845945,
+    "attendance": 0.013157170844607121,
+    "study_hours": 0.020841885861007547,
+    "previous_marks": 0.00793847046518735,
+    "assignment_completion": 0.009231043459625622,
+    "internal_marks": 0.9031470537767263,
+    "failed_subjects": 0.0,
+    "sleep_hours": 0.0,
+    "motivation_encoded": 0.0,
+    "year_encoded": 0.0,
+    "mode_Coaching": 0.0,
+    "mode_Group study": 0.0,
+    "mode_Self-study": 0.0
+  }
+}
